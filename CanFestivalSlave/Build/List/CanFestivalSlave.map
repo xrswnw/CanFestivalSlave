@@ -1,0 +1,1084 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  03/Jan/2025  18:57:24
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Exe\CanFestivalSlave.out
+#    Map file     =
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\List\CanFestivalSlave.map
+#    Command line =
+#        -f C:\Users\swnw\AppData\Local\Temp\EW9602.tmp
+#        (E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_Can_HL.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_Device.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_FRam.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_FRam_HL.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_Periph_HL.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_RS485.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_RS485_HL.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_RTC.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_SysCfg.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_SysTick_HL.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_Tim_HL.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_Uart_Receive.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_CanFestival_WDG_HL.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_FRam.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\AnyID_Stdlib.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\dcf.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\emcy.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\lifegrd.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\lss.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\main.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\misc.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\nmtMaster.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\nmtSlave.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\objacces.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\pdo.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\sdo.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\slaveNormal.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\startup_stm32f10x_hd.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\states.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_adc.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_bkp.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_can.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_dma.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_exti.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_flash.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_gpio.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_it.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_iwdg.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_pwr.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_rcc.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_rtc.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_spi.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_tim.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\stm32f10x_usart.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\sync.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\system_stm32f10x.o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj\timer.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Exe\CanFestivalSlave.out
+#        --map
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\List\CanFestivalSlave.map
+#        --config
+#        E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\GD32F103xB.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'4000 { ro section .intvec };
+"P1":  place in [from 0x800'4000 to 0x801'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 2000, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'4fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x130
+  .intvec            ro code   0x800'4000   0x130  startup_stm32f10x_hd.o [1]
+                             - 0x800'4130   0x130
+
+"P1", part 1 of 2:                          0x342
+  .rodata            const     0x800'4130     0x2  slaveNormal.o [1]
+  .text              ro code   0x800'4132     0x6  abort.o [2]
+  .rodata            const     0x800'4138     0x1  slaveNormal.o [1]
+  Initializer bytes  const     0x800'4139   0x339  <for P2-1>
+                             - 0x800'4472   0x342
+
+Absolute sections:                           0x32
+  .rodata            const     0x800'5000    0x32  AnyID_CanFestival_Device.o [1]
+                             - 0x800'5032    0x32
+
+"P1", part 2 of 2:                         0x9808
+  .text              ro code   0x800'5034  0x3000  sdo.o [1]
+  .text              ro code   0x800'8034   0x3a2  objacces.o [1]
+  .text              ro code   0x800'83d6    0x3a  zero_init3.o [3]
+  .text              ro code   0x800'8410  0x1ce4  dlmalloc.o [2]
+  .text              ro code   0x800'a0f4    0xa6  ABImemcpy.o [3]
+  .text              ro code   0x800'a19a     0x8  heaptramp0.o [2]
+  .text              ro code   0x800'a1a4   0x1e0  timer.o [1]
+  .text              ro code   0x800'a384   0x2a4  AnyID_CanFestival_Can_HL.o [1]
+  .text              ro code   0x800'a628    0x2c  xgetmemchunk.o [2]
+  .text              ro code   0x800'a654    0xb8  AnyID_CanFestival_Tim_HL.o [1]
+  .text              ro code   0x800'a70c    0x66  ABImemset.o [3]
+  .text              ro code   0x800'a774   0x178  stm32f10x_gpio.o [1]
+  .text              ro code   0x800'a8ec   0x6a6  stm32f10x_can.o [1]
+  .text              ro code   0x800'af94    0xb8  misc.o [1]
+  .text              ro code   0x800'b04c    0x14  exit.o [4]
+  .text              ro code   0x800'b060   0x112  stm32f10x_tim.o [1]
+  .text              ro code   0x800'b174   0xaf0  pdo.o [1]
+  .text              ro code   0x800'bc64    0x68  memcmp.o [3]
+  .text              ro code   0x800'bccc   0x4de  states.o [1]
+  .text              ro code   0x800'c1ac   0x12e  sync.o [1]
+  .text              ro code   0x800'c2dc    0x94  emcy.o [1]
+  .text              ro code   0x800'c370   0x46e  lifegrd.o [1]
+  .text              ro code   0x800'c7de   0x110  nmtSlave.o [1]
+  .text              ro code   0x800'c8ee    0x5c  nmtMaster.o [1]
+  .text              ro code   0x800'c94c   0x4c8  AnyID_CanFestival_Device.o [1]
+  .text              ro code   0x800'ce14   0x236  AnyID_FRam.o [1]
+  .text              ro code   0x800'd04c    0x48  AnyID_Stdlib.o [1]
+  .text              ro code   0x800'd094   0x140  AnyID_CanFestival_FRam.o [1]
+  .text              ro code   0x800'd1d4   0x118  AnyID_CanFestival_Periph_HL.o [1]
+  .text              ro code   0x800'd2ec   0x228  AnyID_CanFestival_FRam_HL.o [1]
+  .text              ro code   0x800'd514   0x318  stm32f10x_rcc.o [1]
+  .text              ro code   0x800'd82c   0x304  AnyID_CanFestival_SysCfg.o [1]
+  .text              ro code   0x800'db30    0x2c  stm32f10x_flash.o [1]
+  .text              ro code   0x800'db5c   0x184  AnyID_CanFestival_RS485_HL.o [1]
+  .text              ro code   0x800'dce0    0xa4  AnyID_CanFestival_SysTick_HL.o [1]
+  .text              ro code   0x800'dd84   0x2c6  stm32f10x_usart.o [1]
+  .text              ro code   0x800'e04c   0x17c  slaveNormal.o [1]
+  .text              ro code   0x800'e1c8   0x160  stm32f10x_it.o [1]
+  .text              ro code   0x800'e328    0xea  AnyID_CanFestival_Uart_Receive.o [1]
+  .rodata            const     0x800'e414    0xe0  slaveNormal.o [1]
+  .text              ro code   0x800'e4f4    0x78  lz77_init_single.o [3]
+  .text              ro code   0x800'e56c    0x52  system_stm32f10x.o [1]
+  .rodata            const     0x800'e5c0    0x30  AnyID_CanFestival_Periph_HL.o [1]
+  .text              ro code   0x800'e5f0    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'e618    0x20  - Linker created -
+  .rodata            const     0x800'e638    0x20  AnyID_CanFestival_Periph_HL.o [1]
+  .text              ro code   0x800'e658    0x1e  cmain.o [3]
+  .text              ro code   0x800'e676     0x4  low_level_init.o [2]
+  .text              ro code   0x800'e67a    0x18  main.o [1]
+  .text              ro code   0x800'e692     0x4  exit.o [2]
+  .text              ro code   0x800'e698     0xa  cexit.o [3]
+  .rodata            const     0x800'e6a4    0x10  states.o [1]
+  .rodata            const     0x800'e6b4    0x10  states.o [1]
+  .text              ro code   0x800'e6c4    0x10  startup_stm32f10x_hd.o [1]
+  .rodata            const     0x800'e6d4     0xc  slaveNormal.o [1]
+  .rodata            const     0x800'e6e0     0xc  slaveNormal.o [1]
+  .text              ro code   0x800'e6ec     0xc  cstartup_M.o [3]
+  .rodata            const     0x800'e6f8     0x8  AnyID_CanFestival_Can_HL.o [1]
+  .rodata            const     0x800'e700     0x8  AnyID_CanFestival_Can_HL.o [1]
+  .rodata            const     0x800'e708     0x8  AnyID_CanFestival_FRam_HL.o [1]
+  .rodata            const     0x800'e710     0x8  AnyID_CanFestival_FRam_HL.o [1]
+  .rodata            const     0x800'e718     0x8  AnyID_CanFestival_Periph_HL.o [1]
+  .rodata            const     0x800'e720     0x8  AnyID_CanFestival_RS485_HL.o [1]
+  .rodata            const     0x800'e728     0x8  AnyID_CanFestival_RS485_HL.o [1]
+  .rodata            const     0x800'e730     0x8  AnyID_CanFestival_RS485_HL.o [1]
+  .rodata            const     0x800'e738     0x8  states.o [1]
+  .rodata            const     0x800'e740     0x8  states.o [1]
+  .rodata            const     0x800'e748     0x8  states.o [1]
+  .rodata            const     0x800'e750     0x8  states.o [1]
+  .text              ro code   0x800'e758     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e75c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e760     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e764     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e768     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e76c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e770     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e774     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e778     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e77c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e780     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e784     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e788     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e78c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e790     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e794     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e798     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e79c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7a0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7a4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7a8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7ac     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7b0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7b4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7b8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7bc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7c0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7c4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7c8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7cc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7d0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7d4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7d8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7dc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7e0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7e4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7e8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7ec     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7f0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7f4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7f8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e7fc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e800     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e804     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e808     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e80c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e810     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e814     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e818     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e81c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e820     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e824     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e828     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e82c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e830     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e834     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code   0x800'e838     0x4  startup_stm32f10x_hd.o [1]
+  .rodata            const     0x800'e83c     0x0  zero_init3.o [3]
+  .rodata            const     0x800'e83c     0x0  lz77_init_single.o [3]
+                             - 0x800'e83c  0x9808
+
+"P2", part 1 of 3:                          0xbc1
+  P2-1                        0x2000'0000   0xbc1  <Init block>
+    .data            inited   0x2000'0000     0x4  AnyID_CanFestival_SysCfg.o [1]
+    .data            inited   0x2000'0004     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'0010     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'001c    0x10  slaveNormal.o [1]
+    .data            inited   0x2000'002c     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'0038    0x10  slaveNormal.o [1]
+    .data            inited   0x2000'0048     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'0054    0x10  slaveNormal.o [1]
+    .data            inited   0x2000'0064     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'0070     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'0074    0x3c  slaveNormal.o [1]
+    .data            inited   0x2000'00b0     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'00b4     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'00b8    0x24  slaveNormal.o [1]
+    .data            inited   0x2000'00dc     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'00e0    0x54  slaveNormal.o [1]
+    .data            inited   0x2000'0134     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'0138    0x54  slaveNormal.o [1]
+    .data            inited   0x2000'018c     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'0190    0x54  slaveNormal.o [1]
+    .data            inited   0x2000'01e4     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'01e8    0x54  slaveNormal.o [1]
+    .data            inited   0x2000'023c    0x6c  slaveNormal.o [1]
+    .data            inited   0x2000'02a8    0x6c  slaveNormal.o [1]
+    .data            inited   0x2000'0314    0x6c  slaveNormal.o [1]
+    .data            inited   0x2000'0380    0x6c  slaveNormal.o [1]
+    .data            inited   0x2000'03ec     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'03f0    0x54  slaveNormal.o [1]
+    .data            inited   0x2000'0444     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'0448    0x54  slaveNormal.o [1]
+    .data            inited   0x2000'049c     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'04a0    0x54  slaveNormal.o [1]
+    .data            inited   0x2000'04f4     0x4  slaveNormal.o [1]
+    .data            inited   0x2000'04f8    0x54  slaveNormal.o [1]
+    .data            inited   0x2000'054c    0x20  slaveNormal.o [1]
+    .data            inited   0x2000'056c    0x6c  slaveNormal.o [1]
+    .data            inited   0x2000'05d8    0x20  slaveNormal.o [1]
+    .data            inited   0x2000'05f8    0x6c  slaveNormal.o [1]
+    .data            inited   0x2000'0664    0x20  slaveNormal.o [1]
+    .data            inited   0x2000'0684    0x6c  slaveNormal.o [1]
+    .data            inited   0x2000'06f0    0x6c  slaveNormal.o [1]
+    .data            inited   0x2000'075c     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'0768     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'0774     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'0780     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'078c     0xc  slaveNormal.o [1]
+    .data            inited   0x2000'0798    0x48  slaveNormal.o [1]
+    .data            inited   0x2000'07e0   0x3a4  slaveNormal.o [1]
+    .data            inited   0x2000'0b84    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x2000'0b94     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x2000'0b98     0x4  timer.o [1]
+    .data            inited   0x2000'0b9c     0x2  slaveNormal.o [1]
+    .data            inited   0x2000'0b9e     0x2  slaveNormal.o [1]
+    .data            inited   0x2000'0ba0     0x2  slaveNormal.o [1]
+    .data            inited   0x2000'0ba2     0x2  slaveNormal.o [1]
+    .data            inited   0x2000'0ba4     0x2  slaveNormal.o [1]
+    .data            inited   0x2000'0ba6     0x2  slaveNormal.o [1]
+    .data            inited   0x2000'0ba8     0x2  slaveNormal.o [1]
+    .data            inited   0x2000'0baa     0x2  timer.o [1]
+    .data            inited   0x2000'0bac     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bad     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bae     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0baf     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb0     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb1     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb2     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb3     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb4     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb5     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb6     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb7     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb8     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bb9     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bba     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bbb     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bbc     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bbd     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bbe     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bbf     0x1  slaveNormal.o [1]
+    .data            inited   0x2000'0bc0     0x1  slaveNormal.o [1]
+                            - 0x2000'0bc1   0xbc1
+
+"P2", part 2 of 3:                         0x1558
+  .bss               zero     0x2000'0bc4   0x410  AnyID_CanFestival_RS485.o [1]
+  .bss               zero     0x2000'0fd4   0x410  AnyID_CanFestival_RS485.o [1]
+  .bss               zero     0x2000'13e4   0x408  AnyID_CanFestival_Device.o [1]
+  .bss               zero     0x2000'17ec   0x3d8  AnyID_CanFestival_Device.o [1]
+  .bss               zero     0x2000'1bc4   0x1d8  dlmalloc.o [2]
+  .bss               zero     0x2000'1d9c   0x180  timer.o [1]
+  .bss               zero     0x2000'1f1c    0x34  AnyID_CanFestival_Can_HL.o [1]
+  .bss               zero     0x2000'1f50    0x20  slaveNormal.o [1]
+  .bss               zero     0x2000'1f70    0x20  slaveNormal.o [1]
+  .bss               zero     0x2000'1f90    0x20  slaveNormal.o [1]
+  .bss               zero     0x2000'1fb0    0x20  slaveNormal.o [1]
+  .bss               zero     0x2000'1fd0    0x20  slaveNormal.o [1]
+  .bss               zero     0x2000'1ff0    0x1c  slaveNormal.o [1]
+  .bss               zero     0x2000'200c    0x1c  slaveNormal.o [1]
+  .bss               zero     0x2000'2028    0x1c  slaveNormal.o [1]
+  .bss               zero     0x2000'2044    0x1c  slaveNormal.o [1]
+  .bss               zero     0x2000'2060    0x18  dlmalloc.o [2]
+  .bss               zero     0x2000'2078     0xc  AnyID_CanFestival_Periph_HL.o [1]
+  .bss               zero     0x2000'2084     0x8  AnyID_CanFestival_FRam.o [1]
+  .bss               zero     0x2000'2090     0x8  slaveNormal.o [1]
+  .bss               zero     0x2000'2098     0x4  AnyID_CanFestival_Device.o [1]
+  .bss               zero     0x2000'209c     0x4  AnyID_CanFestival_SysCfg.o [1]
+  .bss               zero     0x2000'20a0     0x4  AnyID_CanFestival_SysTick_HL.o [1]
+  .bss               zero     0x2000'20a4     0x4  pdo.o [1]
+  .bss               zero     0x2000'20a8     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20ac     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20b0     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20b4     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20b8     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20bc     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20c0     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20c4     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20c8     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20cc     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20d0     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20d4     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20d8     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20dc     0x4  slaveNormal.o [1]
+  .bss               zero     0x2000'20e0     0x4  xgetmemchunk.o [2]
+  .bss               zero     0x2000'20e4     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20e6     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20e8     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20ea     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20ec     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20ee     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20f0     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20f2     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20f4     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20f6     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20f8     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20fa     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20fc     0x2  slaveNormal.o [1]
+  .bss               zero     0x2000'20fe     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'20ff     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2100     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2101     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2102     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2103     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2104     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2105     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2106     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2107     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2108     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2109     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'210a     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'210b     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'210c     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'210d     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'210e     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'210f     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2110     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2111     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2112     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2113     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2114     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2115     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2116     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2117     0x1  slaveNormal.o [1]
+  .bss               zero     0x2000'2118     0x1  slaveNormal.o [1]
+                            - 0x2000'2119  0x1555
+
+"P2", part 3 of 3:                         0x27d0
+  CSTACK                      0x2000'2120  0x2000  <Block>
+    CSTACK           uninit   0x2000'2120  0x2000  <Block tail>
+  HEAP                        0x2000'4120   0x7d0  <Block>
+    HEAP             uninit   0x2000'4120   0x7d0  <Block tail>
+                            - 0x2000'48f0  0x27d0
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'4472   0x800'4fff     0xb8e
+   0x800'5032   0x800'5033       0x2
+   0x800'e83c   0x801'ffff  0x1'17c4
+  0x2000'0bc1  0x2000'0bc3       0x3
+  0x2000'211c  0x2000'211f       0x4
+  0x2000'48f0  0x2000'4fff     0x710
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1555:
+          0x2000'0bc4  0x1555
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x339 (27% of destination):
+           0x800'4139   0x339
+    1 destination range, total size 0xbc1:
+          0x2000'0000   0xbc1
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                            ro code  ro data  rw data  ro data
+                                                                  (abs)
+    ------                            -------  -------  -------  -------
+command line/config:
+    --------------------------------------------------------------------
+    Total:
+
+E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj: [1]
+    AnyID_CanFestival_Can_HL.o            676       16       52
+    AnyID_CanFestival_Device.o          1'224             2'020       50
+    AnyID_CanFestival_FRam.o              320                 8
+    AnyID_CanFestival_FRam_HL.o           552       16
+    AnyID_CanFestival_Periph_HL.o         280       88       12
+    AnyID_CanFestival_RS485.o                             2'080
+    AnyID_CanFestival_RS485_HL.o          388       24
+    AnyID_CanFestival_SysCfg.o            772        1        8
+    AnyID_CanFestival_SysTick_HL.o        164                 4
+    AnyID_CanFestival_Tim_HL.o            184
+    AnyID_CanFestival_Uart_Receive.o      234
+    AnyID_FRam.o                          566
+    AnyID_Stdlib.o                         72
+    emcy.o                                148
+    lifegrd.o                           1'134
+    main.o                                 24
+    misc.o                                184
+    nmtMaster.o                            92
+    nmtSlave.o                            272
+    objacces.o                            930
+    pdo.o                               2'800                 4
+    sdo.o                              12'288
+    slaveNormal.o                         380    1'068    3'368
+    startup_stm32f10x_hd.o                548
+    states.o                            1'246       64
+    stm32f10x_can.o                     1'702
+    stm32f10x_flash.o                      44
+    stm32f10x_gpio.o                      376
+    stm32f10x_it.o                        352
+    stm32f10x_rcc.o                       792        5       20
+    stm32f10x_tim.o                       274
+    stm32f10x_usart.o                     710
+    sync.o                                302
+    system_stm32f10x.o                     82
+    timer.o                               480        2      390
+    --------------------------------------------------------------------
+    Total:                             30'592    1'284    7'966       50
+
+dl7M_tlf.a: [2]
+    abort.o                                 6
+    dlmalloc.o                          7'396               496
+    exit.o                                  4
+    heaptramp0.o                            8
+    low_level_init.o                        4
+    xgetmemchunk.o                         44                 4
+    --------------------------------------------------------------------
+    Total:                              7'462               500
+
+rt7M_tl.a: [3]
+    ABImemcpy.o                           166
+    ABImemset.o                           102
+    cexit.o                                10
+    cmain.o                                30
+    cstartup_M.o                           12
+    data_init.o                            40
+    lz77_init_single.o                    120
+    memcmp.o                              104
+    zero_init3.o                           58
+    --------------------------------------------------------------------
+    Total:                                642
+
+shb_l.a: [4]
+    exit.o                                 20
+    --------------------------------------------------------------------
+    Total:                                 20
+
+    Gaps                                   20        6        4
+    Linker created                                  32   10'192
+------------------------------------------------------------------------
+    Grand Total:                       38'736    1'322   18'662       50
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x800'e618           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'e638           --   Gb  - Linker created -
+?main                    0x800'e659          Code  Gb  cmain.o [3]
+ADCPrescTable           0x2000'0b94     0x4  Data  Lc  stm32f10x_rcc.o [1]
+APBAHBPrescTable        0x2000'0b84    0x10  Data  Lc  stm32f10x_rcc.o [1]
+BusFault_Handler         0x800'e1cf     0x2  Code  Gb  stm32f10x_it.o [1]
+CAN_ClearITPendingBit    0x800'aee9    0x98  Code  Gb  stm32f10x_can.o [1]
+CAN_FIFORelease          0x800'acd1    0x14  Code  Gb  stm32f10x_can.o [1]
+CAN_FilterInit           0x800'a9ff    0xc6  Code  Gb  stm32f10x_can.o [1]
+CAN_GetFlagStatus        0x800'ae0d    0x14  Code  Gb  stm32f10x_can.o [1]
+CAN_GetITStatus          0x800'ae21    0xc8  Code  Gb  stm32f10x_can.o [1]
+CAN_ITConfig             0x800'aadd    0x18  Code  Gb  stm32f10x_can.o [1]
+CAN_Init                 0x800'a8ed   0x112  Code  Gb  stm32f10x_can.o [1]
+CAN_MessagePending       0x800'ace5    0x2a  Code  Gb  stm32f10x_can.o [1]
+CAN_RX_PORT              0x800'e6f8     0x8  Data  Gb  AnyID_CanFestival_Can_HL.o [1]
+CAN_Receive              0x800'ad0f    0xfe  Code  Gb  stm32f10x_can.o [1]
+CAN_TX_PORT              0x800'e700     0x8  Data  Gb  AnyID_CanFestival_Can_HL.o [1]
+CAN_Transmit             0x800'aaf5   0x13e  Code  Gb  stm32f10x_can.o [1]
+CAN_TransmitStatus       0x800'ac33    0x9e  Code  Gb  stm32f10x_can.o [1]
+CSTACK$$Base            0x2000'2120           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'4120           --   Gb  - Linker created -
+Can_Delayms              0x800'a4bb    0x12  Code  Gb  AnyID_CanFestival_Can_HL.o [1]
+Can_InitInterface        0x800'a385   0x136  Code  Gb  AnyID_CanFestival_Can_HL.o [1]
+CheckITStatus            0x800'af81    0x12  Code  Lc  stm32f10x_can.o [1]
+ConsumerHeartbeatAlarm   0x800'c371    0x36  Code  Gb  lifegrd.o [1]
+CopyBits                 0x800'b5dd    0xd8  Code  Gb  pdo.o [1]
+DEVICE_VERSION           0x800'5000    0x32  Data  Gb  AnyID_CanFestival_Device.o [1]
+DebugMon_Handler         0x800'e1d5     0x2  Code  Gb  stm32f10x_it.o [1]
+DelAlarm                 0x800'a25b    0x32  Code  Gb  timer.o [1]
+Device_CanFestivalCallBackInit
+                         0x800'cd31    0x20  Code  Gb  AnyID_CanFestival_Device.o [1]
+Device_CanopenParamsUpDate
+                         0x800'cad9     0x2  Code  Gb  AnyID_CanFestival_Device.o [1]
+Device_Init              0x800'c94d    0x1c  Code  Gb  AnyID_CanFestival_Device.o [1]
+Device_LedTask           0x800'cd51    0x8e  Code  Gb  AnyID_CanFestival_Device.o [1]
+Device_ReadDeviceParamenter
+                         0x800'c9bb   0x11e  Code  Gb  AnyID_CanFestival_Device.o [1]
+Device_ResetDeviceParamenter
+                         0x800'c969    0x52  Code  Gb  AnyID_CanFestival_Device.o [1]
+Device_ResponseFrame     0x800'cb17   0x148  Code  Gb  AnyID_CanFestival_Device.o [1]
+Device_WriteDeviceParamenter
+                         0x800'cadb    0x3c  Code  Gb  AnyID_CanFestival_Device.o [1]
+FLASH_PrefetchBufferCmd
+                         0x800'db43    0x14  Code  Gb  stm32f10x_flash.o [1]
+FLASH_SetLatency         0x800'db31    0x12  Code  Gb  stm32f10x_flash.o [1]
+FRAM_SCL_PORT            0x800'e710     0x8  Data  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRAM_SDA_PORT            0x800'e708     0x8  Data  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_Delayms             0x800'd337    0x12  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_I2CAck              0x800'd3d1    0x30  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_I2CDelay            0x800'd329     0xe  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_I2CNoAck            0x800'd401    0x30  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_I2CReceiveByte      0x800'd4bd    0x4e  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_I2CSendByte         0x800'd473    0x4a  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_I2CStart            0x800'd349    0x58  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_I2CStop             0x800'd3a1    0x30  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_I2CWaitAck          0x800'd431    0x42  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_InitInterface       0x800'd2ed    0x3c  Code  Gb  AnyID_CanFestival_FRam_HL.o [1]
+FRam_ReadBuffer          0x800'ce15    0xe2  Code  Gb  AnyID_FRam.o [1]
+FRam_WriteBuffer         0x800'cfa3    0xa8  Code  Gb  AnyID_FRam.o [1]
+FRam_WritePage           0x800'cef7    0xac  Code  Gb  AnyID_FRam.o [1]
+Fram_ReadBootParamenter
+                         0x800'd095    0xfc  Code  Gb  AnyID_CanFestival_FRam.o [1]
+Fram_WriteBootParamenter
+                         0x800'd191    0x3e  Code  Gb  AnyID_CanFestival_FRam.o [1]
+GPIO_Init                0x800'a775    0xea  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig      0x800'a85f    0x84  Code  Gb  stm32f10x_gpio.o [1]
+GuardTimeAlarm           0x800'c547    0x94  Code  Gb  lifegrd.o [1]
+HEAP$$Base              0x2000'4120           --   Gb  - Linker created -
+HEAP$$Limit             0x2000'48f0           --   Gb  - Linker created -
+HardFault_Handler        0x800'e1cb     0x2  Code  Gb  stm32f10x_it.o [1]
+MemManage_Handler        0x800'e1cd     0x2  Code  Gb  stm32f10x_it.o [1]
+NMI_Handler              0x800'e1c9     0x2  Code  Gb  stm32f10x_it.o [1]
+NVIC_Init                0x800'af9f    0x66  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                         0x800'af95     0xa  Code  Gb  misc.o [1]
+NVIC_SetVectorTable      0x800'b005     0xc  Code  Gb  misc.o [1]
+OnCOB_ID_SyncUpdate      0x800'c1bb    0x12  Code  Gb  sync.o [1]
+OnHeartbeatProducerUpdate
+                         0x800'c5f3    0x18  Code  Gb  lifegrd.o [1]
+OnNodeGuardUpdate        0x800'c5db    0x18  Code  Gb  lifegrd.o [1]
+OnNumberOfErrorsUpdate   0x800'c2dd    0x36  Code  Gb  emcy.o [1]
+PDOEventTimerAlarm       0x800'b859    0x2e  Code  Gb  pdo.o [1]
+PDOInhibitTimerAlarm     0x800'b889    0x36  Code  Gb  pdo.o [1]
+PDOInit                  0x800'bb6b    0x5c  Code  Gb  pdo.o [1]
+PDOStop                  0x800'bbd1    0x94  Code  Gb  pdo.o [1]
+PERIPH_BUZZER_PORT       0x800'e718     0x8  Data  Gb  AnyID_CanFestival_Periph_HL.o [1]
+PERIPH_LED               0x800'e5c0    0x30  Data  Gb  AnyID_CanFestival_Periph_HL.o [1]
+PERIPH_STATE_LED         0x800'e638    0x20  Data  Gb  AnyID_CanFestival_Periph_HL.o [1]
+PendSV_Handler           0x800'e1d7     0x2  Code  Gb  stm32f10x_it.o [1]
+Periph_Ctr               0x800'd259    0x84  Code  Gb  AnyID_CanFestival_Periph_HL.o [1]
+Periph_InitInterface     0x800'd1d5    0x84  Code  Gb  AnyID_CanFestival_Periph_HL.o [1]
+ProducerHeartbeatAlarm   0x800'c4fd    0x4a  Code  Gb  lifegrd.o [1]
+RCC_ADCCLKConfig         0x800'd641    0x10  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd   0x800'd745    0x1c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphResetCmd   0x800'd77d    0x1c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd   0x800'd729    0x1c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd   0x800'd761    0x1c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_DeInit               0x800'd515    0x40  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq        0x800'd651    0xd8  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetFlagStatus        0x800'd799    0x46  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetSYSCLKSource      0x800'd5ff     0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HCLKConfig           0x800'd609    0x10  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSEConfig            0x800'd555    0x3a  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK1Config          0x800'd619    0x10  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK2Config          0x800'd629    0x12  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLCmd               0x800'd5e5     0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLConfig            0x800'd5cd    0x18  Code  Gb  stm32f10x_rcc.o [1]
+RCC_SYSCLKConfig         0x800'd5ef    0x10  Code  Gb  stm32f10x_rcc.o [1]
+RCC_USBCLKConfig         0x800'd63b     0x6  Code  Gb  stm32f10x_rcc.o [1]
+RCC_WaitForHSEStartUp    0x800'd58f    0x3e  Code  Gb  stm32f10x_rcc.o [1]
+Reader_ProcessUartFrame
+                         0x800'cc5f    0x96  Code  Gb  AnyID_CanFestival_Device.o [1]
+Region$$Table$$Base      0x800'e618           --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'e638           --   Gb  - Linker created -
+RegisterSetODentryCallBack
+                         0x800'8397    0x3e  Code  Gb  objacces.o [1]
+SDOTimeoutAlarm          0x800'5035    0xda  Code  Gb  sdo.o [1]
+SDOlineToObjdict         0x800'512d    0xc0  Code  Gb  sdo.o [1]
+SDOtoLine                0x800'53a5   0x172  Code  Gb  sdo.o [1]
+STick_InitSysTick        0x800'dd3d    0x26  Code  Gb  AnyID_CanFestival_SysTick_HL.o [1]
+SVC_Handler              0x800'e1d3     0x2  Code  Gb  stm32f10x_it.o [1]
+SetAlarm                 0x800'a1a5    0xb6  Code  Gb  timer.o [1]
+SetSysClock              0x800'e5bd     0x2  Code  Lc  system_stm32f10x.o [1]
+SyncAlarm                0x800'c1ad     0xe  Code  Gb  sync.o [1]
+SysTick_CLKSourceConfig
+                         0x800'b011    0x1c  Code  Gb  misc.o [1]
+SysTick_Config           0x800'dd0d    0x30  Code  Lc  AnyID_CanFestival_SysTick_HL.o [1]
+SysTick_Handler          0x800'e1d9    0x44  Code  Gb  stm32f10x_it.o [1]
+Sys_CanTsak              0x800'da5b    0x3a  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_CfgClock             0x800'd83f    0x76  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_CfgNVIC              0x800'd8d1    0x18  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_CfgPeriphClk         0x800'd8b5    0x1c  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_CtrlIOInit           0x800'd8e9     0xc  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_Delayms              0x800'd82d    0x12  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_DeviceTask           0x800'da95    0x68  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_Init                 0x800'd8f5    0x88  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_LedTask              0x800'd97d    0x12  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+Sys_Rs485Task            0x800'd98f    0xcc  Code  Gb  AnyID_CanFestival_SysCfg.o [1]
+SystemInit               0x800'e56d    0x3c  Code  Gb  system_stm32f10x.o [1]
+TIM1_UP_IRQHandler       0x800'a6e1    0x1e  Code  Gb  AnyID_CanFestival_Tim_HL.o [1]
+TIM_ClearITPendingBit    0x800'b169     0xa  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                  0x800'b105    0x1e  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus          0x800'b13b    0x2e  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig             0x800'b123    0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit         0x800'b061    0x7c  Code  Gb  stm32f10x_tim.o [1]
+TPDO_Communication_Parameter_Callback
+                         0x800'bac3    0xa8  Code  Gb  pdo.o [1]
+Tim_InitInterface        0x800'a655    0x7e  Code  Gb  AnyID_CanFestival_Tim_HL.o [1]
+TimeDispatch             0x800'a28d    0xea  Code  Gb  timer.o [1]
+UART_485_CTRL            0x800'e730     0x8  Data  Gb  AnyID_CanFestival_RS485_HL.o [1]
+UART_PORT_RX             0x800'e728     0x8  Data  Gb  AnyID_CanFestival_RS485_HL.o [1]
+UART_PORT_TX             0x800'e720     0x8  Data  Gb  AnyID_CanFestival_RS485_HL.o [1]
+USART1_IRQHandler        0x800'e21d    0x4e  Code  Gb  stm32f10x_it.o [1]
+USART_ClearFlag          0x800'dfab    0x10  Code  Gb  stm32f10x_usart.o [1]
+USART_ClearITPendingBit
+                         0x800'e025    0x26  Code  Gb  stm32f10x_usart.o [1]
+USART_Cmd                0x800'df01    0x1e  Code  Gb  stm32f10x_usart.o [1]
+USART_DeInit             0x800'dd85    0x90  Code  Gb  stm32f10x_usart.o [1]
+USART_GetFlagStatus      0x800'df8f    0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus        0x800'dfbb    0x6a  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig           0x800'df1f    0x70  Code  Gb  stm32f10x_usart.o [1]
+USART_Init               0x800'de15    0xd6  Code  Gb  stm32f10x_usart.o [1]
+USB_LP_CAN1_RX0_IRQHandler
+                         0x800'e26b    0x9e  Code  Gb  stm32f10x_it.o [1]
+Uart_ConfigInt           0x800'dc05    0x22  Code  Gb  AnyID_CanFestival_RS485_HL.o [1]
+Uart_Delayms             0x800'dc57    0x12  Code  Gb  AnyID_CanFestival_RS485_HL.o [1]
+Uart_EnableInt           0x800'dc27    0x30  Code  Gb  AnyID_CanFestival_RS485_HL.o [1]
+Uart_InitInterface       0x800'db5d    0xa8  Code  Gb  AnyID_CanFestival_RS485_HL.o [1]
+Uart_ReceiveFrame        0x800'e329    0xea  Code  Gb  AnyID_CanFestival_Uart_Receive.o [1]
+Uart_WriteBuffer         0x800'dc7b    0x4e  Code  Gb  AnyID_CanFestival_RS485_HL.o [1]
+Uart_WriteByte           0x800'dc69    0x12  Code  Gb  AnyID_CanFestival_RS485_HL.o [1]
+UsageFault_Handler       0x800'e1d1     0x2  Code  Gb  stm32f10x_it.o [1]
+_RxPDO_EventTimers_Handler
+                         0x800'b8bf     0x2  Code  Gb  pdo.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'4fff          Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000          Data  Gb  <internal module>
+__NVIC_SetPriority       0x800'dce1    0x2c  Code  Lc  AnyID_CanFestival_SysTick_HL.o [1]
+__aeabi_memcpy           0x800'a0f5          Code  Gb  ABImemcpy.o [3]
+__aeabi_memcpy4          0x800'a115          Code  Gb  ABImemcpy.o [3]
+__aeabi_memcpy8          0x800'a115          Code  Gb  ABImemcpy.o [3]
+__aeabi_memset           0x800'a70d          Code  Gb  ABImemset.o [3]
+__cmain                  0x800'e659          Code  Gb  cmain.o [3]
+__data_GetMemChunk       0x800'a629    0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2000'20e0     0x4  Data  Lc  xgetmemchunk.o [2]
+__exit                   0x800'b04d    0x14  Code  Gb  exit.o [4]
+__iar_Memset             0x800'a70d          Code  Gb  ABImemset.o [3]
+__iar_Memset_word        0x800'a715          Code  Gb  ABImemset.o [3]
+__iar_data_init3         0x800'e5f1    0x28  Code  Gb  data_init.o [3]
+__iar_dlfree             0x800'982f   0x51e  Code  Gb  dlmalloc.o [2]
+__iar_dlmalloc           0x800'8941   0xeee  Code  Gb  dlmalloc.o [2]
+__iar_dlrealloc          0x800'a069    0x7e  Code  Gb  dlmalloc.o [2]
+__iar_lz77_init_single3
+                         0x800'e4f5    0x78  Code  Gb  lz77_init_single.o [3]
+__iar_program_start      0x800'e6ed          Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'83d7    0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'e677     0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'4000          Data  Gb  startup_stm32f10x_hd.o [1]
+_call_main               0x800'e665          Code  Gb  cmain.o [3]
+_exit                    0x800'e699          Code  Gb  cexit.o [3]
+_getODentry              0x800'803f   0x166  Code  Gb  objacces.o [1]
+_gm_                    0x2000'1bc4   0x1d8  Data  Lc  dlmalloc.o [2]
+_heartbeatError          0x800'c7b9     0x2  Code  Gb  lifegrd.o [1]
+_initialisation          0x800'c18d     0x2  Code  Gb  states.o [1]
+_main                    0x800'e673          Code  Gb  cmain.o [3]
+_nodeguardError          0x800'c7dd     0x2  Code  Gb  lifegrd.o [1]
+_operational             0x800'c1a7     0x2  Code  Gb  states.o [1]
+_post_SlaveBootup        0x800'c7bb    0x20  Code  Gb  lifegrd.o [1]
+_post_SlaveStateChange   0x800'c7db     0x2  Code  Gb  lifegrd.o [1]
+_post_TPDO               0x800'c2d9     0x2  Code  Gb  sync.o [1]
+_post_emcy               0x800'c36f     0x2  Code  Gb  emcy.o [1]
+_post_sync               0x800'c2d7     0x2  Code  Gb  sync.o [1]
+_preOperational          0x800'c18f    0x18  Code  Gb  states.o [1]
+_sendPDOevent            0x800'b8c1   0x202  Code  Gb  pdo.o [1]
+_setODentry              0x800'81a5   0x1c2  Code  Gb  objacces.o [1]
+_stopped                 0x800'c1a9     0x2  Code  Gb  states.o [1]
+_storeODSubIndex         0x800'83d5     0x2  Code  Gb  objacces.o [1]
+a_GetCrc                 0x800'd04d    0x48  Code  Gb  AnyID_Stdlib.o [1]
+abort                    0x800'4133     0x6  Code  Gb  abort.o [2]
+accessDictionaryError    0x800'8035     0xa  Code  Gb  objacces.o [1]
+buildPDO                 0x800'b175   0x10c  Code  Gb  pdo.o [1]
+canDispatch              0x800'bccd    0x9c  Code  Gb  states.o [1]
+canSend                  0x800'a4cd    0xb8  Code  Gb  AnyID_CanFestival_Can_HL.o [1]
+canSendRepat             0x800'a585    0x96  Code  Gb  AnyID_CanFestival_Can_HL.o [1]
+dispose_chunk            0x800'8499   0x4a6  Code  Lc  dlmalloc.o [2]
+emergencyInit            0x800'c313    0x1c  Code  Gb  emcy.o [1]
+emergencyStop            0x800'c335     0x2  Code  Gb  emcy.o [1]
+exit                     0x800'e693     0x4  Code  Gb  exit.o [2]
+failedSDO                0x800'5517    0xc2  Code  Gb  sdo.o [1]
+free                     0x800'a19b     0x4  Code  Gb  heaptramp0.o [2]
+g_nChkComTime           0x2000'209c     0x4  Data  Gb  AnyID_CanFestival_SysCfg.o [1]
+g_nPdoFlag              0x2000'20a4     0x4  Data  Gb  pdo.o [1]
+g_nRfuu8                0x2000'20fe     0x1  Data  Gb  slaveNormal.o [1]
+g_nRufu16               0x2000'20e4     0x2  Data  Gb  slaveNormal.o [1]
+g_nRufu16_callbacks     0x2000'20d4     0x4  Data  Gb  slaveNormal.o [1]
+g_nRufu32               0x2000'20ac     0x4  Data  Gb  slaveNormal.o [1]
+g_nRufu32_callbacks     0x2000'20d8     0x4  Data  Gb  slaveNormal.o [1]
+g_nRufu64               0x2000'2090     0x8  Data  Gb  slaveNormal.o [1]
+g_nRufu64_callbacks     0x2000'20dc     0x4  Data  Gb  slaveNormal.o [1]
+g_nSysDelay             0x2000'20a0     0x4  Data  Gb  AnyID_CanFestival_SysTick_HL.o [1]
+g_nSysState             0x2000'0000     0x4  Data  Gb  AnyID_CanFestival_SysCfg.o [1]
+g_nSysTick              0x2000'20a8     0x4  Data  Gb  slaveNormal.o [1]
+g_sCanFrame             0x2000'1f1c    0x34  Data  Gb  AnyID_CanFestival_Can_HL.o [1]
+g_sDeviceParams         0x2000'17ec   0x3d8  Data  Gb  AnyID_CanFestival_Device.o [1]
+g_sFramBootParamenter   0x2000'2084     0x8  Data  Gb  AnyID_CanFestival_FRam.o [1]
+g_sPeriphInfo           0x2000'2078     0xc  Data  Gb  AnyID_CanFestival_Periph_HL.o [1]
+g_sRS485RcvFrame        0x2000'0fd4   0x410  Data  Gb  AnyID_CanFestival_RS485.o [1]
+g_sReaderRspFrame       0x2000'13e4   0x408  Data  Gb  AnyID_CanFestival_Device.o [1]
+g_sUartRcvTempFrame     0x2000'0bc4   0x410  Data  Gb  AnyID_CanFestival_RS485.o [1]
+getElapsedTime           0x800'a6d9     0x8  Code  Gb  AnyID_CanFestival_Tim_HL.o [1]
+getNodeId                0x800'bf9d     0x6  Code  Gb  states.o [1]
+getSDOfreeLine           0x800'57f1    0x40  Code  Gb  sdo.o [1]
+getSDOlineOnUse          0x800'5831    0x70  Code  Gb  sdo.o [1]
+getSDOlineRestBytes      0x800'58a1    0x3c  Code  Gb  sdo.o [1]
+heartbeatInit            0x800'c60b    0x8e  Code  Gb  lifegrd.o [1]
+heartbeatStop            0x800'c741    0x42  Code  Gb  lifegrd.o [1]
+index0x2003_0x00_callback
+                         0x800'ccf5    0x3c  Code  Gb  AnyID_CanFestival_Device.o [1]
+index0x2003_0x00_callback::oParams
+                        0x2000'2098     0x4  Data  Lc  AnyID_CanFestival_Device.o [1]
+initSDOline              0x800'5633   0x1ae  Code  Gb  sdo.o [1]
+init_mparams             0x800'842b    0x2c  Code  Lc  dlmalloc.o [2]
+init_top                 0x800'8457    0x34  Code  Lc  dlmalloc.o [2]
+last_timer_raw          0x2000'0baa     0x2  Data  Gb  timer.o [1]
+lifeGuardInit            0x800'c795    0x12  Code  Gb  lifegrd.o [1]
+lifeGuardStop            0x800'c7a7    0x12  Code  Gb  lifegrd.o [1]
+lineToSDO                0x800'52e3    0xc2  Code  Gb  sdo.o [1]
+main                     0x800'e67b    0x18  Code  Gb  main.o [1]
+masterSendNMTnodeguard   0x800'c91f    0x2c  Code  Gb  nmtMaster.o [1]
+masterSendNMTstateChange
+                         0x800'c8ef    0x30  Code  Gb  nmtMaster.o [1]
+memcmp                   0x800'bc65          Code  Gb  memcmp.o [3]
+mparams                 0x2000'2060    0x18  Data  Lc  dlmalloc.o [2]
+nodeguardInit            0x800'c699    0x92  Code  Gb  lifegrd.o [1]
+nodeguardStop            0x800'c783    0x12  Code  Gb  lifegrd.o [1]
+objdictToSDOline         0x800'51ed    0xf6  Code  Gb  sdo.o [1]
+proceedEMCY              0x800'c337    0x38  Code  Gb  emcy.o [1]
+proceedNMTstateChange    0x800'c7df    0xe0  Code  Gb  nmtSlave.o [1]
+proceedNODE_GUARD        0x800'c3a7   0x156  Code  Gb  lifegrd.o [1]
+proceedPDO               0x800'b281   0x35c  Code  Gb  pdo.o [1]
+proceedSDO               0x800'5a2d  0x25fc  Code  Gb  sdo.o [1]
+proceedSYNC              0x800'c2a7    0x30  Code  Gb  sync.o [1]
+realloc                  0x800'a19f     0x4  Code  Gb  heaptramp0.o [2]
+resetSDO                 0x800'510f    0x1e  Code  Gb  sdo.o [1]
+resetSDOline             0x800'55d9    0x5a  Code  Gb  sdo.o [1]
+scanIndexOD              0x800'837d    0x1a  Code  Gb  objacces.o [1]
+segment_holding          0x800'8411    0x1a  Code  Lc  dlmalloc.o [2]
+sendOnePDOevent          0x800'b6eb   0x16c  Code  Gb  pdo.o [1]
+sendPDOevent             0x800'b6dd     0xe  Code  Gb  pdo.o [1]
+sendPdo                  0x800'b6b5    0x28  Code  Lc  pdo.o [1]
+sendSDO                  0x800'58f5    0xd6  Code  Gb  sdo.o [1]
+sendSDOabort             0x800'59cb    0x60  Code  Gb  sdo.o [1]
+sendSYNC                 0x800'c28f    0x18  Code  Gb  sync.o [1]
+sendSYNCMessage          0x800'c267    0x28  Code  Gb  sync.o [1]
+setNodeId                0x800'bfa3   0x1ce  Code  Gb  states.o [1]
+setSDOlineRestBytes      0x800'58dd    0x18  Code  Gb  sdo.o [1]
+setState                 0x800'bec1    0xdc  Code  Gb  states.o [1]
+setTimer                 0x800'a6d3     0x6  Code  Gb  AnyID_CanFestival_Tim_HL.o [1]
+slaveNormal_Data        0x2000'07e0   0x3a4  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1000   0x2000'0004     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1001   0x2000'0010     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1008   0x2000'002c     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1009   0x2000'0048     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index100A   0x2000'0064     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1018   0x2000'0074    0x3c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1200   0x2000'00b8    0x24  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1400   0x2000'00e0    0x54  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1401   0x2000'0138    0x54  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1402   0x2000'0190    0x54  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1403   0x2000'01e8    0x54  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1600   0x2000'023c    0x6c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1601   0x2000'02a8    0x6c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1602   0x2000'0314    0x6c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1603   0x2000'0380    0x6c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1800   0x2000'03f0    0x54  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1800_callbacks
+                        0x2000'1ff0    0x1c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1801   0x2000'0448    0x54  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1801_callbacks
+                        0x2000'200c    0x1c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1802   0x2000'04a0    0x54  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1802_callbacks
+                        0x2000'2028    0x1c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1803   0x2000'04f8    0x54  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1803_callbacks
+                        0x2000'2044    0x1c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1A00   0x2000'056c    0x6c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1A01   0x2000'05f8    0x6c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1A02   0x2000'0684    0x6c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index1A03   0x2000'06f0    0x6c  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index2000   0x2000'075c     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index2001   0x2000'0768     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index2002   0x2000'0774     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index2003   0x2000'0780     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_Index2004   0x2000'078c     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_ObjdictSize
+                         0x800'4130     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_PDO_status  0x2000'0798    0x48  Data  Gb  slaveNormal.o [1]
+slaveNormal_bDeviceNodeId
+                        0x2000'20ff     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_firstIndex   0x800'e6d4     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_heartBeatTimers
+                        0x2000'20e6     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1003
+                        0x2000'2101     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1016
+                        0x2000'2103     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1018
+                        0x2000'0bac     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1200
+                        0x2000'0bad     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1400
+                        0x2000'0bae     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1401
+                        0x2000'0baf     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1402
+                        0x2000'0bb0     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1403
+                        0x2000'0bb1     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1600
+                        0x2000'0bb2     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1601
+                        0x2000'0bb3     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1602
+                        0x2000'0bb4     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1603
+                        0x2000'0bb5     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1800
+                        0x2000'0bb6     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1801
+                        0x2000'0bb8     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1802
+                        0x2000'0bba     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1803
+                        0x2000'0bbc     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1A00
+                        0x2000'0bbd     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1A01
+                        0x2000'0bbe     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1A02
+                        0x2000'0bbf     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_highestSubIndex_obj1A03
+                        0x2000'0bc0     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_iam_a_slave
+                         0x800'4138     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_lastIndex    0x800'e6e0     0xc  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1000     0x2000'20b0     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1001     0x2000'2100     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1003     0x2000'20b4     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1005     0x2000'20b8     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1006     0x2000'20bc     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1008     0x2000'001c    0x10  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1009     0x2000'0038    0x10  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj100A     0x2000'0054    0x10  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj100C     0x2000'20e8     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj100D     0x2000'2102     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1014     0x2000'0070     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1016     0x2000'20c0     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1017     0x2000'0b9c     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1018_Product_Code
+                        0x2000'20c8     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1018_Revision_Number
+                        0x2000'20cc     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1018_Serial_Number
+                        0x2000'20d0     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1018_Vendor_ID
+                        0x2000'20c4     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1200_COB_ID_Client_to_Server_Receive_SDO
+                        0x2000'00b0     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1200_COB_ID_Server_to_Client_Transmit_SDO
+                        0x2000'00b4     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1400_COB_ID_used_by_PDO
+                        0x2000'00dc     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1400_Compatibility_Entry
+                        0x2000'2105     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1400_Event_Timer
+                        0x2000'20ec     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1400_Inhibit_Time
+                        0x2000'20ea     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1400_SYNC_start_value
+                        0x2000'2106     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1400_Transmission_Type
+                        0x2000'2104     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1401_COB_ID_used_by_PDO
+                        0x2000'0134     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1401_Compatibility_Entry
+                        0x2000'2108     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1401_Event_Timer
+                        0x2000'20f0     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1401_Inhibit_Time
+                        0x2000'20ee     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1401_SYNC_start_value
+                        0x2000'2109     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1401_Transmission_Type
+                        0x2000'2107     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1402_COB_ID_used_by_PDO
+                        0x2000'018c     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1402_Compatibility_Entry
+                        0x2000'210b     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1402_Event_Timer
+                        0x2000'20f4     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1402_Inhibit_Time
+                        0x2000'20f2     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1402_SYNC_start_value
+                        0x2000'210c     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1402_Transmission_Type
+                        0x2000'210a     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1403_COB_ID_used_by_PDO
+                        0x2000'01e4     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1403_Compatibility_Entry
+                        0x2000'210e     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1403_Event_Timer
+                        0x2000'20f8     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1403_Inhibit_Time
+                        0x2000'20f6     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1403_SYNC_start_value
+                        0x2000'210f     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1403_Transmission_Type
+                        0x2000'210d     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1600     0x2000'1f50    0x20  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1601     0x2000'1f70    0x20  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1602     0x2000'1f90    0x20  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1603     0x2000'1fb0    0x20  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1800_COB_ID_used_by_PDO
+                        0x2000'03ec     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1800_Compatibility_Entry
+                        0x2000'2110     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1800_Event_Timer
+                        0x2000'0ba0     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1800_Inhibit_Time
+                        0x2000'0b9e     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1800_SYNC_start_value
+                        0x2000'2111     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1800_Transmission_Type
+                        0x2000'0bb7     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1801_COB_ID_used_by_PDO
+                        0x2000'0444     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1801_Compatibility_Entry
+                        0x2000'2112     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1801_Event_Timer
+                        0x2000'0ba4     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1801_Inhibit_Time
+                        0x2000'0ba2     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1801_SYNC_start_value
+                        0x2000'2113     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1801_Transmission_Type
+                        0x2000'0bb9     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1802_COB_ID_used_by_PDO
+                        0x2000'049c     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1802_Compatibility_Entry
+                        0x2000'2114     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1802_Event_Timer
+                        0x2000'0ba8     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1802_Inhibit_Time
+                        0x2000'0ba6     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1802_SYNC_start_value
+                        0x2000'2115     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1802_Transmission_Type
+                        0x2000'0bbb     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1803_COB_ID_used_by_PDO
+                        0x2000'04f4     0x4  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1803_Compatibility_Entry
+                        0x2000'2117     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1803_Event_Timer
+                        0x2000'20fc     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1803_Inhibit_Time
+                        0x2000'20fa     0x2  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1803_SYNC_start_value
+                        0x2000'2118     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1803_Transmission_Type
+                        0x2000'2116     0x1  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1A00     0x2000'054c    0x20  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1A01     0x2000'05d8    0x20  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1A02     0x2000'0664    0x20  Data  Gb  slaveNormal.o [1]
+slaveNormal_obj1A03     0x2000'1fd0    0x20  Data  Gb  slaveNormal.o [1]
+slaveNormal_objdict      0x800'e414    0xe0  Data  Gb  slaveNormal.o [1]
+slaveNormal_scanIndexOD
+                         0x800'e065   0x13c  Code  Gb  slaveNormal.o [1]
+slaveNormal_valueRangeTest
+                         0x800'e04d    0x18  Code  Gb  slaveNormal.o [1]
+slaveSendBootUp          0x800'c8bf    0x30  Code  Gb  nmtSlave.o [1]
+startSYNC                0x800'c1cd    0x64  Code  Gb  sync.o [1]
+stopSYNC                 0x800'c239    0x2e  Code  Gb  sync.o [1]
+switchCommunicationState
+                         0x800'bd69   0x158  Code  Gb  states.o [1]
+timers                  0x2000'1d9c   0x180  Data  Gb  timer.o [1]
+total_sleep_time        0x2000'0b98     0x4  Data  Gb  timer.o [1]
+try_realloc_chunk        0x800'9d51   0x318  Code  Lc  dlmalloc.o [2]
+
+
+[1] = E:\AnyID\Git\CanFestivalSlave\CanFestivalSlave\CanFestivalSlave\Build\Obj
+[2] = dl7M_tlf.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  38'736 bytes of readonly  code memory
+   1'322 bytes of readonly  data memory (+ 50 absolute)
+  18'662 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,12 @@
+1、应用程序的起始地址：0x08004000；//待定
+2、串口固定式串口1，115200-8-N-1
+3、上电后等待Master发送空格' '，如果接收到连续的3个空格，就发送BootMenu信息，否则就进去应用程序区工作；
+4、Master直接更新bin文件，并且选择flash的块大小；Slaver直接将接收的数据写入FLASH，不做任何处理；
+5、Master通过CPU型号确定FLASH和PAGE大小，STM32F10xx4:FLASH = 16K, PAGE = 1K
+                                         STM32F10xx6:FLASH = 32K, PAGE = 1K
+                                         STM32F10xx8:FLASH = 64K, PAGE = 1K
+                                         STM32F10xxB:FLASH = 128K,PAGE = 1K
+                                         STM32F10xxC:FLASH = 256K,PAGE = 2K
+                                         STM32F10xxD:FLASH = 384K,PAGE = 2K
+                                         STM32F10xxE:FLASH = 512K,PAGE = 2K
+                         

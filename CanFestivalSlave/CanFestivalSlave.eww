@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\..\Boot\CanFestivalSlave\Boot.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\CanFestivalSlave.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
